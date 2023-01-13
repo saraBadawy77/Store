@@ -259,16 +259,4 @@ font-weight: 500;
     color: #bfe1c4;
 }
 /* sm2 bannar */
-.sm2-bannar .c1{
-background-image: url(/img/banner/img7.jpg);
-background-size: cover;
-padding-top: 30px ;
-padding-bottom: 40px;
-
-}
-.sm2-bannar .c1{
-    background-image: url(/img/banner/b4.jpg);
-}
-.sm2-bannar .c1{
-        background-image: url(/img/banner/b18.jpg);
-}   
+ 
