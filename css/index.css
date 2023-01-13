@@ -186,3 +186,29 @@ color: #1a1a1a;
 .card{
     flex-shrink: 1;
 }
+/* //////panner//// */
+.banner{
+    background-image: url(../img/banner/b2.jpg);
+    background-size: cover;
+    padding-top: 60px ;
+    /* padding-bottom: 40px; */
+    height:50vh;
+    margin-bottom: 40px;
+    
+}
+.banner h4,h1 {
+  color: #E3E6F3;  
+}
+.banner span{
+    color: rgb(232, 54, 54);
+}
+.banner button{
+   background-color: #E3E6F3;
+   transition: 0.5s all ease;
+font-weight: 500;
+}
+.banner button:hover{
+    background-color: #088178;
+    color: #E3E6F3;
+    transition: 0.5s all ease;
+}
