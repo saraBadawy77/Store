@@ -93,7 +93,7 @@ color: #088178;
     background-repeat: no-repeat;
     border: 0px;
     background-color: transparent;
-    padding:  14px 80px 14px 65px ;
+    padding: 10px 80px 14px 65px ;
     cursor: pointer;
     font-weight: 600;
     color: #088178;
@@ -259,4 +259,39 @@ font-weight: 500;
     color: #bfe1c4;
 }
 /* sm2 bannar */
+.new_banner .bannerr{
+    background-image: url(../img/banner/img7.jpg);
+    padding-top:100px;
+    padding-bottom:40px;
+    height:40vh ;
+    background-size: cover;
+    flex-shrink:1;
+  
+    margin-right:15px ;
+}
  
+.new_banner .bannerr2{
+    background-image: url(../img/banner/b4.jpg);
+    padding-top:50px;
+    padding-bottom:40px;
+    height:40vh ;
+    background-size: cover;
+    flex-shrink:1;
+    margin-right:15px ;
+}
+.new_banner .bannerr3{
+    background-image: url(../img/banner/b18.jpg);
+    padding-top:50px;
+    padding-bottom:40px;
+    height:40vh ;
+    background-size: cover;
+    flex-shrink:1;
+}
+.new_banner h3 b{
+   color: #E3E6F3;
+
+}
+.new_banner h5{
+    font-weight: 500;
+    color: crimson;
+}
