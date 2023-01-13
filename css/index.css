@@ -191,7 +191,6 @@ color: #1a1a1a;
     background-image: url(../img/banner/b2.jpg);
     background-size: cover;
     padding-top: 60px ;
-    /* padding-bottom: 40px; */
     height:50vh;
     margin-bottom: 40px;
     
@@ -212,3 +211,64 @@ font-weight: 500;
     color: #E3E6F3;
     transition: 0.5s all ease;
 }
+/* ////sm-bannar//// */
+.s-lift{
+    background-image:url(../img/banner/b17.jpg);
+    padding-top:40px;
+    padding-bottom: 40px;
+    padding-left: 30px ;
+    flex-shrink:1;
+    margin-right: 20px;
+}
+.s-lift h3,p{
+    color: #E3E6F3;
+    font-weight: 400px ;
+}
+.s-lift button{
+    transition: 1s all;
+    border: 1px solid   #E3E6F3;
+    color: #E3E6F3;
+}
+.s-right{
+    background-image:url(../img/banner/b10.jpg );
+    padding-top:40px;
+    padding-bottom: 40px;
+    padding-left: 30px ;
+    flex-shrink:1;
+    transition: 1s all;
+
+}
+.s-right h3,p{
+    color: #E3E6F3;
+    font-weight: 400px ;
+}
+.s-right button{
+    border: 1px solid   #E3E6F3;
+    color: #E3E6F3;
+}
+.s-right:hover button{
+    background-color: #088178;
+    transition: 1s all;
+}
+.s-lift:hover button{
+    background-color: #088178;
+    transition: 1s all;
+}
+.s-right button:hover,
+.s-lift button:hover{
+    color: #bfe1c4;
+}
+/* sm2 bannar */
+.sm2-bannar .c1{
+background-image: url(/img/banner/img7.jpg);
+background-size: cover;
+padding-top: 30px ;
+padding-bottom: 40px;
+
+}
+.sm2-bannar .c1{
+    background-image: url(/img/banner/b4.jpg);
+}
+.sm2-bannar .c1{
+        background-image: url(/img/banner/b18.jpg);
+}   
