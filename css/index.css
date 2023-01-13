@@ -139,3 +139,50 @@ background-color: #cdebbc;
 .features .box:nth-child(6) h6 {
                 background-color: #fff2e5;
 }
+
+/*///// products_features//// */
+.products{
+    padding-top:50px;
+     padding-bottom: 50px ;
+}
+.part1{
+    padding: 50px 30px;
+}
+.part1 h2{
+font-weight: 600;
+color: #1a1a1a;
+}
+.part1 p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #1a1a1a;
+}
+.part2 img{
+    margin-top: 10px;
+    border: none;
+    
+}
+.part2 span{
+    color: #bfe1c4;
+}
+.star{
+    color: rgb(243,181,25);
+}
+.price h4{
+    color: #088178;
+}
+.price i{ 
+    background-color:#cdd4f8;
+    color: #088178;
+    padding: 10px 10px ;
+    border-radius: 50%;
+    transition: .5s all;
+}
+.price i:hover{
+    color: rgb(230, 177, 44) ;
+    background-color: #bfe1c4;
+}
+
+.card{
+    flex-shrink: 1;
+}
