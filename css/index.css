@@ -102,7 +102,7 @@ color: #088178;
 }
 /*////// features///// */
 .box{
-width:180px ;
+
     margin:  15px 0px ;
     border-radius: 5px ;
     padding:25px 20px;
@@ -110,6 +110,7 @@ width:180px ;
     text-align: center;
 
     box-shadow: 20px 20px 35px rgba(0,0,0,.063);
+    flex-shrink: 1;
 }
 .hvr-pulse-grow{
     transition: 0.3s all;
@@ -294,4 +295,66 @@ font-weight: 500;
 .new_banner h5{
     font-weight: 500;
     color: crimson;
+}
+/* /////before footer/// */
+.before-footer{
+    background-image: url(../img/banner/c0.jpg);
+    background-size: cover;
+    height:40vh ;
+    padding-top:100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.before-footer{
+    color: #E3E6F3;
+    font-weight: 500;
+}
+.before-footer p{
+    font-weight: 300;
+}
+.before-footer span{
+    color:#ffbd27;
+}
+.before-footer button{
+    background-color: #088178;
+    color: #E3E6F3;
+    font-weight: 500;
+}
+/* ////footer/// */
+.part_sec span{
+color:#088178;
+font-size: 20px;
+}
+.fontss i{
+    font-size: 20px;
+    padding-right: 15px;
+    color: #465b52;
+    transition:  1s all;
+    
+}
+.fontss i:hover{
+color: #088178;
+    font-size: 30px;
+    transition:  1s all;
+}
+.fontss a{
+    text-decoration: none;
+}
+.end h6{
+    color: #1a1a1a;
+    font-size: 20px;
+}
+.end p{
+    color: #088178;
+    font-size: 20px ;
+    font-weight: 400px;
+}
+.end a{
+    text-decoration: none;
+}
+.end .as a:hover{
+    color: #ffbd27;
+}
+.fas .fa-home .me-3 {
+    color: #088178;
 }
