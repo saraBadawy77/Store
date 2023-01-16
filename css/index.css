@@ -432,7 +432,49 @@ color: #088178;
 .fas .fa-home .me-3 {
     color: #088178;
 }
-/* //////media home */
+
+
+
+/*/////////////////////////// style shop page ///////////////////// */
+
+#header_page{
+background-image: url(../img/banner/b1.jpg);
+width: 100%;
+height:40vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 14px;
+}
+#header_page h2,
+#header_page p {
+    color: #fff;
+}
+
+/* pagination */
+
+#pagination{
+text-align: center;
+}
+#pagination a i{
+ color: #fff;
+ background-color: #088178;
+ padding: 15px 20px ;
+ border-radius:4px;
+ font-size: 600;
+ font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+/* ///////////////////////media home /////////////////////////*/
 
 @media(max-width:799px) {
     #navbar {
