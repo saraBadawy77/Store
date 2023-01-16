@@ -7,7 +7,7 @@
     <title>Online Store</title>
     <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="font/css/all.css">
-<link rel="stylesheet" href="js/hover.css">
+<!-- <link rel="stylesheet" href="js/hover.css"> -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&family=Montserrat&display=swap" rel="stylesheet">
@@ -20,17 +20,18 @@
 <div>
 <ul id="navbar">
   <li  ><a href="index.html"  class="active" > Home</a></li>
-  <li><a href="Shop.html">Shop</a></li>
-  <li><a href="Blog.html">Blog</a></li>
-  <li><a href="About.html">About</a></li>
-  <li><a href="Contact.html">Contact</a></li>
-  <li><a href="Cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+  <li><a href="#">Shop</a></li>
+  <li><a href="#">Blog</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Contact</a></li>
+  <li id="lg-bag"><a href="#"  ><i class="fa-solid fa-bag-shopping "></i></a></li>
+  <a  href="#" id="close"><i class="fa-regular fa-rectangle-xmark"></i></a>
 </ul>
 </div>
 
 <div id="mobile">
 
-<a href="Cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+<a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
 <i id="bar" class="fas fa-outdent"></i> 
 </div>
 
@@ -47,60 +48,89 @@
 </section>
 
 <!-- ////// -->
+<section class=" features  section-p1 " >
+<div class="fe-box">
+  <img src="img/Features/f1.png" alt=" features1">
+   <h6>Free Phopping</h6>
+</div>
+<div class="fe-box">             
+   <img src="img/Features/f2.png" alt=" features2">
+    <h6>Online Order</h6>
+ 
+</div>
+<div class="fe-box">
+               <img src="img/Features/f3.png" alt=" features3">
+              <h6>Save Money</h6>
+</div>
+<div class="fe-box">
+                <img src="img/Features/f4.png" alt=" features4">
+              <h6>Promations</h6>
+</div>
+<div class="fe-box">
+
+                <img src="img/Features/f5.png" alt=" features5">
+              <h6>Happy Sall</h6>
+
+</div>
+<div class="fe-box">
+              <img src="img/Features/f6.png" alt=" features6">
+              <h6>F24/7Support</h6>
+</div>
+</section>
 
 
-<section class=" features  section-p1" >
+
+
+<!-- <section class=" features  " >
 <div class="container">
       <div class="row  d-flex flex-nowrap ">
           <div class=" col-l box    hvr-pulse-grow " style="margin-right: 10px;">
-              <img src="img/Features/f1.png" alt=" features1">
-              <h6>Free Phopping</h6>
+              
+              
           </div>
           <div class=" col-l box    hvr-pulse-grow " style="margin-right: 10px;">
-              <img src="img/Features/f2.png" alt=" features2">
-              <h6>Online Order</h6>
+
           </div>
           <div class=" col-l box    hvr-pulse-grow  " style="margin-right: 10px;">
-              <img src="img/Features/f3.png" alt=" features3">
-              <h6>Save Money</h6>
+
           </div>
-          <!-- <div class=" col-l box    hvr-pulse-grow " style="margin-right: 10px;">
-              <img src="img/Features/f4.png" alt=" features4">
-              <h6>Promations</h6>
+          <div class=" col-l box    hvr-pulse-grow " style="margin-right: 10px;">
+
           </div>
           <div class="col-l box    hvr-pulse-grow" style="margin-right: 10px;">
-              <img src="img/Features/f5.png" alt=" features5">
-              <h6>Happy Sall</h6>
+
           </div>
           <div class=" col-l box    hvr-pulse-grow">
-              <img src="img/Features/f6.png" alt=" features6">
-              <h6>F24/7Support</h6>
-          </div> -->
+
+          </div>
 
       </div>
 
  
 </div>
-</section>
+</section> -->
 
 
 
 <!-- //// -->
 <section  class="products">
     <div class="container" >
-        <div class="row text-center part1">
+        <div class=" text-center part1">
             <div class="col-12">
                 <h2> Features Products</h2>
             </div>
             <div class="col-12">
                 <p>Summer Collection New Moder Design </p>
             </div>
-        </div>
+        </div></section>
         <!-- //////{1}////// -->
-        <div class="row  part2  d-flex flex-nowrap mb-5">
-           
-            <div class="col-3 card  mr-3" >
-              <img src="img/pro/f1.jpg  " alt="pro1"  class="card">
+        
+       <section  class="section-p1">
+        
+          <div class="   part2   mb-5">
+         
+            <div class="pro  " >
+              <img src="img/pro/f1.jpg  " alt="pro1"  >
               <span>adidas</span>  
               <h5><strong> Cartoon Astronaut T-Shirts</strong></h5>  
               <div class="star">
@@ -116,8 +146,9 @@
               </div>
            
             </div>
-            <div class="col-3 card  mr-3" >
-                <img src="img/pro/f2.jpg " alt="pro1"  class="card">
+            
+            <div class="pro" >
+                <img src="img/pro/f2.jpg " alt="pro1" >
                 <span>adidas</span>  
                 <h5><strong> Cartoon Astronaut T-Shirts</strong></h5>  
                 <div class="star">
@@ -132,8 +163,9 @@
                   <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
               </div>
-              <div class="col-3 card  mr-3" >
-                <img src="img/pro/f3.jpg " alt="pro1"  class="card">
+              
+              <div class=" pro  " >
+                <img src="img/pro/f3.jpg " alt="pro1" >
                 <span>adidas</span>  
                 <h5><strong> Cartoon Astronaut T-Shirts</strong></h5>  
                 <div class="star">
@@ -148,8 +180,9 @@
                   <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
               </div>
-              <div class="col-3 card " >
-                <img src="img/pro/f4.jpg " alt="pro1"  class="card">
+              
+              <div class="pro" >
+                <img src="img/pro/f4.jpg " alt="pro1"  >
                 <span>adidas</span>  
                 <h5><strong> Cartoon Astronaut T-Shirts</strong></h5>  
                 <div class="star">
@@ -164,12 +197,12 @@
                   <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
               </div>
-
-        </div>
+            
+        
         <!-- ///{2}/// -->
-        <div class="row  part2  d-flex flex-nowrap mb-5" >
-            <div class="col-3 card  mr-3" >
-              <img src="img/pro/f5.jpg " alt="pro1"  class="card">
+        
+            <div class="pro" >
+              <img src="img/pro/f5.jpg " alt="pro1" >
               <span>adidas</span>  
               <h5><strong> Cartoon Astronaut T-Shirts</strong></h5>  
               <div class="star">
@@ -184,8 +217,8 @@
                 <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
               </div>
             </div>
-            <div class="col-3 card  mr-3" >
-                <img src="img/pro/f6.jpg " alt="pro1"  class="card">
+            <div class="pro" >
+                <img src="img/pro/f6.jpg " alt="pro1"  >
                 <span>adidas</span>  
                 <h5><strong> Cartoon Astronaut T-Shirts</strong></h5>  
                 <div class="star">
@@ -200,8 +233,8 @@
                   <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
               </div>
-              <div class="col-3 card  mr-3" >
-                <img src="img/pro/f7.jpg " alt="pro1"  class="card">
+              <div class="pro" >
+                <img src="img/pro/f7.jpg " alt="pro1" >
                 <span>adidas</span>  
                 <h5><strong> Cartoon Astronaut T-Shirts</strong></h5>  
                 <div class="star">
@@ -216,8 +249,8 @@
                   <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
               </div>
-              <div class="col-3 card  " >
-                <img src="img/pro/f8.jpg " alt="pro1"  class="card">
+              <div class="pro" >
+                <img src="img/pro/f8.jpg " alt="pro1"  >
                 <span>adidas</span>  
                 <h5><strong> Cartoon Astronaut T-Shirts</strong></h5>  
                 <div class="star">
@@ -234,7 +267,7 @@
               </div>
 
         </div>
-    </div>
+    
 </section>
 <section class="banner   text-center">
     <div class="container">
@@ -253,11 +286,13 @@
             <div class="col-12">
                 <p>Summer Collection New Moder Design </p>
             </div>
-        </div>
+        </div></div></section>
                     <!-- //{3}/// -->
-                    <div class="row  part2  d-flex flex-nowrap mb-5" >
-                        <div class="col-3 card  mr-3" >
-                          <img src="img/pro/n1.jpg " alt="pro1"  class="card">
+                    <section  class="section-p1">
+        
+                      <div class="   part2   mb-5">
+                        <div class="pro" >
+                          <img src="img/pro/n1.jpg " alt="pro1"  >
                           <span>adidas</span>  
                           <h5><strong> Cartoon Astronaut T-Shirts</strong></h5>  
                           <div class="star">
@@ -272,8 +307,8 @@
                             <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                           </div>
                         </div>
-                        <div class="col-3 card  mr-3" >
-                            <img src="img/pro/n2.jpg " alt="pro1"  class="card">
+                        <div class="pro" >
+                            <img src="img/pro/n2.jpg " alt="pro1"  >
                             <span>adidas</span>  
                             <h5><strong> Cartoon Astronaut T-Shirts</strong></h5>  
                             <div class="star">
@@ -288,8 +323,8 @@
                               <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                             </div>
                           </div>
-                          <div class="col-3 card  mr-3" >
-                            <img src="img/pro/n3.jpg " alt="pro1"  class="card">
+                          <div class="pro" >
+                            <img src="img/pro/n3.jpg " alt="pro1"  >
                             <span>adidas</span>  
                             <h5><strong> Cartoon Astronaut T-Shirts</strong></h5>  
                             <div class="star">
@@ -304,8 +339,8 @@
                               <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                             </div>
                           </div>
-                          <div class="col-3 card " >
-                            <img src="img/pro/n4.jpg " alt="pro1"  class="card">
+                          <div class="pro " >
+                            <img src="img/pro/n4.jpg " alt="pro1"  >
                             <span>adidas</span>  
                             <h5><strong> Cartoon Astronaut T-Shirts</strong></h5>  
                             <div class="star">
@@ -321,11 +356,11 @@
                             </div>
                           </div>
             
-                    </div>
+                    
                               <!-- ////{4}//// -->
-                    <div class="row  part2  d-flex flex-nowrap mb-5" >
-                        <div class="col-3 card  mr-3" >
-                          <img src="img/pro/n5.jpg " alt="pro1"  class="card">
+                   
+                        <div class="pro" >
+                          <img src="img/pro/n5.jpg " alt="pro1"  >
                           <span>adidas</span>  
                           <h5><strong> Cartoon Astronaut T-Shirts</strong></h5>  
                           <div class="star">
@@ -340,8 +375,8 @@
                             <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                           </div>
                         </div>
-                        <div class="col-3 card  mr-3" >
-                            <img src="img/pro/n6.jpg " alt="pro1"  class="card">
+                        <div class="pro" >
+                            <img src="img/pro/n6.jpg " alt="pro1"  >
                             <span>adidas</span>  
                             <h5><strong> Cartoon Astronaut T-Shirts</strong></h5>  
                             <div class="star">
@@ -356,8 +391,8 @@
                               <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                             </div>
                           </div>
-                          <div class="col-3 card  mr-3" >
-                            <img src="img/pro/n7.jpg " alt="pro1"  class="card">
+                          <div class="pro" >
+                            <img src="img/pro/n7.jpg " alt="pro1"  >
                             <span>adidas</span>  
                             <h5><strong> Cartoon Astronaut T-Shirts</strong></h5>  
                             <div class="star">
@@ -372,8 +407,8 @@
                               <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                             </div>
                           </div>
-                          <div class="col-3 card " >
-                            <img src="img/pro/n8.jpg " alt="pro1"  class="card">
+                          <div class="pro " >
+                            <img src="img/pro/n8.jpg " alt="pro1"  >
                             <span>adidas</span>  
                             <h5><strong> Cartoon Astronaut T-Shirts</strong></h5>  
                             <div class="star">
@@ -392,16 +427,41 @@
                     </div>
         </div></section>
         <!-- ///////// -->
-        <section class=" sm-bannar mb-5">
-            <div class=" container ">
-                <div class="row d-flex flex-nowrap ">
-                    <div class="col-6 s-lift ">
+        <section class=" bannarr  section-p1">
+          
+             
+                  <div class=" bannnar-box s-lift ">
+                      <h3> Crazy deal</h3>
+                      <h1>buy 1 git 1 free</h1>
+                      <p> The best classic dress is on sale cola </p>
+                      <button class="btn"><b> Learn More </b></button>
+                  </div>
+
+                  <div class=" bannnar-box  s-right  bannnar-box2">
+                      <h3> Crazy deal</h3>
+                      <h1>buy 1 git 1 free</h1>
+                      <p> The best classic dress is on sale cola </p>
+                      <button class="btn"><b> Learn More </b></button>
+                  </div>
+              
+          
+      </section>
+
+
+
+
+
+
+        <!-- <section class=" sm-bannar mb-5">
+            <div class=" section-p1">
+                <div class="row d-flex flex-wrap justify-content-between ">
+                    <div class="col-sm-12  col-lg-5 s-lift ">
                         <h3> Crazy deal</h3>
                         <h1>buy 1 git 1 free</h1>
                         <p> The best classic dress is on sale cola </p>
                         <button class="btn"><b> Learn More </b></button>
                     </div>
-                    <div class="col-6 s-right fluid">
+                    <div class=" col-sm-12  col-lg-6  s-right fluid">
                         <h3> Crazy deal</h3>
                         <h1>buy 1 git 1 free</h1>
                         <p> The best classic dress is on sale cola </p>
@@ -409,39 +469,35 @@
                     </div>
                 </div>
             </div>
-        </section>
-<section class="new_banner mb-5">
-    <div class="container">
-        <div class="row   d-flex flex-nowrap ">
-        <div class="col-4 bannerr">
+        </section> -->
 
-            <h3><b> SEASONAL SALE </b></h3>
-            <h5>Winter 50% offer </h5>
+        <!-- new_bannar -->
+<section class="bennar3">
+<div class="bannar-box">
+  <h2>SEASONAL SALE</h2>
+  <h3>Winter Collaction -50% offer </h3>
+</div>
+<div class="bannar-box bannar-box2">
+  <h2>NEW FOOTWEAR COLLECTION</h2>
+  <h3>Spring/summer2022</h3>
+</div>
+<div class="bannar-box bannar-box3">
+  <h2>T-SHIRTS </h2>
+  <h3> New Trandy Prinds </h3>
+</div>
 
-        </div>
-        <div class="col-4 bannerr2">
+</section>
 
-            <h3> <b>NEW FOOTWEAR COLLECTION</b> </h3>
-            <h5>Spring/summer2022 </h5>
-
-        </div>
-        <div class="col-4 bannerr3">
-
-            <h3><b> T-SHIRTS </b></h3>
-            <h5>Winter 70% offer </h5>
-
-        </div>
-        </div>
-    </div>
+    <!-- before footer -->
 </section>
 <section class="before-footer  ">
   <div class="container">
     <div class="row">
-      <div class="col-6" style="padding-left: 0px;">
+      <div class="  col-sm-12 col-lg-6" style="padding-left: 0px;">
        <h3> SignUp For Newsletters</h3>  
        <p> Get E-mail updatas about our latest shop and <span>Special offers</span></p>
       </div>
-      <div class="col-6" style="padding-right: 0px;">
+      <div class=" col-sm-12 col-lg-6" style="padding-right: 0px;">
         <div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="Your e-mail address" aria-label="Recipient's username" aria-describedby="basic-addon2">
           <div class="input-group-append">
@@ -551,7 +607,7 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" >
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 " >
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
           <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>

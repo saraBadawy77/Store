@@ -91,41 +91,10 @@ color: #088178;
     display: none;
     align-items: center;
 }
-
-
-
-/* navbar */
-/* .navbar{
-    background-color: #E3E6F3;
-    box-shadow: 0 5px 15px rgba(0,0,0,.06) ;
+#close{
+    display: none;
 }
-.navbar-nav li{
-    padding:0px 20px;
-    position: relative;
 
-}
-.navbar-nav li a{
-    font-size: 18px;
-    font-weight: 600;
-    color: #1a1a1a;
-padding-bottom:0px;
-}
-.navbar-nav li a:hover,
-.navbar-nav li a.active{
-color: #088178;
-}
-.navbar-nav li a.active::after,
-.navbar-nav li a:hover::after{
-    content: "";
-    width:30%;
-    height:3px;
-    position: absolute;
-    bottom:-1px;
-    left: 28px;
-    background-color: #088178;
-    border-radius: 10px;
-
-} */
 /*////// home_page////// */
 #hero{
     background-image: url(../img/hero4.png);
@@ -142,6 +111,9 @@ color: #088178;
     color: #088178;
     
 }
+#hero p{
+    color: rgb(82, 82, 82);
+}
 #hero button{
     background-image: url(../img/button.png);
     background-repeat: no-repeat;
@@ -155,43 +127,54 @@ color: #088178;
     
 }
 /*////// features///// */
-.box{
-
-    margin:  15px 0px ;
-    border-radius: 5px ;
+.features .fe-box{
     padding:25px 20px;
-    border: 1px solid #cce7d0;
     text-align: center;
+    width:180px;
+    border: 1px solid #cce7d0;
+     margin:  15px 0px ;
 
     box-shadow: 20px 20px 35px rgba(0,0,0,.063);
-    flex-shrink: 1;
+
+    border-radius: 5px ;
 }
-.hvr-pulse-grow{
-    transition: 0.3s all;
+.features .fe-box:hover{
+
+    box-shadow: 10px 10px 54px rgba(70,62,221,0.1); 
 }
-.box img {
+.features{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.fe-box img {
+    width: 100%;
 padding-bottom: 10px;
 }
-.box h6{
+.fe-box h6{
     padding: 12px 6px 12px 6px  ;
     color: #088178;
     line-height: 1px ;
     border-radius: 5px;
     background-color: #fddde4;
 }
-.features .box:nth-child(2) h6 {
+.features .fe-box:nth-child(2) h6 {
 background-color: #cdebbc;
 }
-.features .box:nth-child(3) h6 {
+.features .fe-box:nth-child(3) h6 {
     background-color:#cce7d0;
 }
-.features .box:nth-child(4) h6 {
+.features .fe-box:nth-child(4) h6 {
         background-color: #cdd4f8;
      }
-.features .box:nth-child(5) h6 {
+.features .fe-box:nth-child(5) h6 {
             background-color: #f6dbf6;
          }
-.features .box:nth-child(6) h6 {
+.features .fe-box:nth-child(6) h6 {
                 background-color: #fff2e5;
 }
 
@@ -199,6 +182,7 @@ background-color: #cdebbc;
 .products{
     padding-top:50px;
      padding-bottom: 50px ;
+    ;
 }
 .part1{
     padding: 50px 30px;
@@ -212,9 +196,16 @@ color: #1a1a1a;
     font-size: 20px;
     color: #1a1a1a;
 }
+.part2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
 .part2 img{
-    margin-top: 10px;
+     width: 100%;
     border: none;
+    border-radius: 20px;
     
 }
 .part2 span{
@@ -238,9 +229,22 @@ color: #1a1a1a;
     background-color: #bfe1c4;
 }
 
-.card{
-    flex-shrink: 1;
+
+.pro{
+     
+    width: 23%;
+    min-width: 250px;
+    border-radius:20px ;
+    border: 1px  #cdd4f8 solid;
+    padding:10px 12px  ;
+    margin-bottom: 30px;
 }
+.pro:hover{
+    
+    box-shadow: 20px 20px 35px rgba(106, 103, 43, 0.063);
+}
+
+
 /* //////panner//// */
 .banner{
     background-image: url(../img/banner/b2.jpg);
@@ -267,14 +271,35 @@ font-weight: 500;
     transition: 0.5s all ease;
 }
 /* ////sm-bannar//// */
-.s-lift{
-    background-image:url(../img/banner/b17.jpg);
-    padding-top:40px;
-    padding-bottom: 40px;
-    padding-left: 30px ;
-    flex-shrink:1;
-    margin-right: 20px;
+.bannarr  {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
 }
+.bannarr  .bannnar-box{ 
+    background-image:url(../img/banner/b17.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width:48%;
+    height:50vh;
+    background-size: cover;
+    background-position: center;
+    padding:20px;
+   margin-bottom:20px;
+  }
+  .bannarr  .bannnar-box2{
+    background-image:url(../img/banner/b10.jpg );
+  }
+
+
+
+
+
+
+
 .s-lift h3,p{
     color: #E3E6F3;
     font-weight: 400px ;
@@ -283,15 +308,6 @@ font-weight: 500;
     transition: 1s all;
     border: 1px solid   #E3E6F3;
     color: #E3E6F3;
-}
-.s-right{
-    background-image:url(../img/banner/b10.jpg );
-    padding-top:40px;
-    padding-bottom: 40px;
-    padding-left: 30px ;
-    flex-shrink:1;
-    transition: 1s all;
-
 }
 .s-right h3,p{
     color: #E3E6F3;
@@ -314,48 +330,52 @@ font-weight: 500;
     color: #bfe1c4;
 }
 /* sm2 bannar */
-.new_banner .bannerr{
-    background-image: url(../img/banner/img7.jpg);
-    padding-top:100px;
-    padding-bottom:40px;
-    height:40vh ;
-    background-size: cover;
-    flex-shrink:1;
-  
-    margin-right:15px ;
+.bennar3{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 80px ;
+    flex-wrap: wrap;
 }
- 
-.new_banner .bannerr2{
+.bennar3 .bannar-box{
+  background-image: url(../img/banner/img7.jpg);  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-width:30%;
+  height:30vh;
+  background-size: cover;
+  background-position: center;
+  padding:20px;
+ margin-bottom:20px;
+}
+.bennar3  .bannar-box2{
     background-image: url(../img/banner/b4.jpg);
-    padding-top:50px;
-    padding-bottom:40px;
-    height:40vh ;
-    background-size: cover;
-    flex-shrink:1;
-    margin-right:15px ;
 }
-.new_banner .bannerr3{
+.bennar3 .bannar-box3{
     background-image: url(../img/banner/b18.jpg);
-    padding-top:50px;
-    padding-bottom:40px;
-    height:40vh ;
-    background-size: cover;
-    flex-shrink:1;
 }
-.new_banner h3 b{
-   color: #E3E6F3;
+.bennar3 h2{
+    font-size:22px ;
+    font-weight: 900;
+    color:#fff ;
+}
+.bennar3 h3{
+    font-size:15px ;
+    font-weight: 800;
+    color:#ec544e ;
 
 }
-.new_banner h5{
-    font-weight: 500;
-    color: crimson;
-}
+
+
+
+
 /* /////before footer/// */
 .before-footer{
     background-image: url(../img/banner/c0.jpg);
     background-size: cover;
-    height:40vh ;
-    padding-top:100px;
+    height:50vh ;
+    padding-top:160px;
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -423,13 +443,14 @@ align-items: flex-start;
 justify-content: flex-start;
 position: fixed;
 top: 0px;
-right: 0px;
+right:0px;
 height: 100vh;
 width: 300px;
 background-color: #E3E6F3;
 box-shadow: 0 40px 60px rgba(0,0,0,.01) ;
 padding: 80px 0px 0px 10px ;
 display: none;
+transition: .3s ease-in;
 
 }   
 #navbar li{
@@ -443,11 +464,181 @@ display: none;
     color: #1a1a1a;
     font-size: 24px ;
     padding-left: 20px ;
+   
 
+}
+#close{
+    font-size: 24px;
+    position: absolute;
+    top: 30px;
+    left: 30px ;
+    color: #222;
+    display: initial;
+}
+#lg-bag{
+    display: none;
+}
+/* hero */
+
+    #hero {
+     
+    
+        height: 80vh;
+    padding: 0px 80px;
+        background-position: top 30% right 30%;
+    
+    }
+    #div1{
+        flex-wrap: wrap;
+        display: initial;
+    }
+/* .features  */
+.features{
+    justify-content: center;
+}
+
+.features .fe-box{
+margin: 15px 10px ;
+}
+
+
+/* pro */
+.part2{
+
+    justify-content: center;
+ 
+
+}
+.pro{
+    margin:10px;
+}
+/* banner */
+.banner {
+
+    height: 30vh;
+    
+}
+/* sm-bannar */
+.bannarr{
+
+    padding: 0px 40px;
+}
+
+.bannarr  .bannnar-box{ 
+
+    min-width:100%;
+    height:50vh;
+
+  }
+
+
+
+.s-lift{
+    margin-bottom: 30px;
+}
+/* sm2-bannar */
+.bennar3 {
+    padding: 0px 40px;
+}
+
+   
+.bennar3 .bannar-box{
+    width:28%;
 }
 
 
 
 
+/* beforeend  */
+.before-footer{
+
+    height: 25vh;
+    padding-top: 50px;
+}
+
+}
+
+@media (max-width:477px) {
+    /* nav */
+    #header {
+
+        padding: 10px 30px;
+       
+    }
+    
+    /* hero */
+    h2 {
+        font-size: 32px; 
+    }
+    h1 {
+        font-size: 38px; 
+    }
+    #hero {
+       
+        padding: 0px 20px;
+        background-position: 55%;
+    }
+
+    /* features */
+    .section-p1{
+        padding: 20px ;
+
+    }
+    .features .fe-box {
+     
+        width: 155px;
+       
+        margin: 0px 0px  15px 0px;
+       
+    }
+    .features{
+
+        justify-content: space-between;
+    }
+/* pro */
+.pro {
+    width: 100%;
+
+}
+/* bannar */
+.banner {
+
+    height: 40vh;
+    
+}
+/* smbannar */
+
+
+
+.bannarr  .bannnar-box{ 
+
+    min-width:100%;
+    height:40vh;
+
+  }
+
+
+
+
+/* sm2bannar */
+.bennar3 {
+    padding: 0px 20px;
+}
+
+   
+.bennar3 .bannar-box{
+    width:100%;
+}
+
+/* befor footer */
+.before-footer {
+
+    height: 30vh;
+    padding: 30px 10px ;
+   
+}
+/* footer */
+
+    
 }
 
