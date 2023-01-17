@@ -604,10 +604,52 @@ background-color: #088178;
     color: #cccdd0;
    font-size: 15px;
 }
+/* /////////////apout page /////////// */
+#header_page.about-header{
+    background-image:url(../img/about/banner.png);
+    }
+#about-head{
+
+    display: flex;
+    align-items: center;
+}
+#about-head img{
+    width:50% ;
+    height: auto;
+}
+#about-head div{
+    padding-left:40px ;
+}
+#about-head div p{
+
+    color: #9fa4b5;
+   font-size: 15px;
+}
+#about-head div h2{
+    font-weight: bold;
+}
 
 
 
-/* ///////////////////////media home /////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////media ipad /////////////////////////*/
 
 @media(max-width:799px) {
     #navbar {
