@@ -659,11 +659,13 @@ margin:30px  auto 0px auto;
 #contact-detiels .detiels{
     width:40%;
 }
-#contact-detiels .detiels span{
+#contact-detiels .detiels span,
+#form-detiles form span{
     font-size: 12px;
     font-weight: bold;
 }
-#contact-detiels .detiels h2{
+#contact-detiels .detiels h2,
+#form-detiles form h2{
     font-size: 26px;
     line-height: 36px;
     padding: 20px 0px ;
@@ -699,8 +701,61 @@ margin:30px  auto 0px auto;
     width: 100%;
     height: 100%;
 }
+#form-detiles form{
+    width: 65%;
+}
+#form-detiles form input,
+#form-detiles form textarea{
+    padding: 12px 15px;
+    margin-bottom: 20px;
+}
+#form-detiles{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px ;
+    border: 1px solid #9fa4b5 ;
+}
+#form-detiles form button{
+    width: 150px;
+    background-color: #088178;
+    color: #fff;
+    font-size:16px  ;
+    font-weight: bold;
+    transition: .5s all;
+    text-align: center;
+    border-radius: 25px;
+}
+#form-detiles form button:hover{
+    background-color: #bfe1c4;
+    color: #1a1a1a;
+}
 
+#form-detiles .people div{
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+}
+#form-detiles .people div img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+#form-detiles .people div p{
+    color: #1a1a1a;
+    font-size: 16px ;
 
+}
+#form-detiles .people div span{
+    font-size:18px;
+    color: #000;
+    display: block; 
+       font-weight: bold;
+       margin: 0px;
+}
+
+/* //////////// */
 
 
 
