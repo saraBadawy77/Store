@@ -511,17 +511,10 @@ padding: 40px 0px 20px 0px;
     height: 45px;
     font-size: 16px;
     padding-left:10px ;
-    margin: right 15px; 
+    margin-right:15px; 
 }
 #prodetiles .single_pro_details input:focus{
     outline:none;
-}
-#prodetiles .single_pro_details button{
-
-    background-color: #088178;
-    color: #fff;
-    font-weight: 600;
-    margin-left: 15px;
 }
 #prodetiles .single_pro_details h4{
     color: #088178;
@@ -651,6 +644,7 @@ margin:30px  auto 0px auto;
     border-radius: 20px;
 }
 /* //////////////page contact //////////// */
+
 #contact-detiels{
     display: flex;
     align-items: center;
@@ -756,6 +750,9 @@ margin:30px  auto 0px auto;
 }
 
 /* ///////////////////cart page/////////////// */
+#cart{
+    overflow-x: auto;
+}
 #cart table{
     width: 100%;
     border-collapse: collapse;
@@ -766,6 +763,24 @@ margin:30px  auto 0px auto;
 #cart table img{
     width:70px;
 }
+#cart table td:nth-child(1){
+width: 100px;
+text-align: center;
+}
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(3){
+        width: 250px;
+        text-align: center;
+ }
+ #cart table td:nth-child(4),
+ #cart table td:nth-child(5),
+ #cart table td:nth-child(6){
+    width: 150px;
+    text-align: center;
+    }
 
 #cart table thead{
     border: #222 1px solid ;
@@ -982,6 +997,7 @@ margin: 15px 10px ;
 #form-detiles form {
     width: 50%;
 }
+/* //////card page/////// */
 
 }
 /* //////////////mobile screen//////// */
@@ -1139,5 +1155,18 @@ flex-direction: column;
 #form-detiles form {
     width: 100%;
     padding-bottom: 30px ;
+}
+/* cart page/////////////////////// */
+#cart-add {
+  flex-direction: column;
+}
+.coupon {
+    width: 100%;
+
+}
+.subtotal {
+    width: 100%;
+    padding: 20px;
+  
 }
 }
