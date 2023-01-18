@@ -650,7 +650,55 @@ margin:30px  auto 0px auto;
     height: 100%;
     border-radius: 20px;
 }
+/* //////////////page contact //////////// */
+#contact-detiels{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#contact-detiels .detiels{
+    width:40%;
+}
+#contact-detiels .detiels span{
+    font-size: 12px;
+    font-weight: bold;
+}
+#contact-detiels .detiels h2{
+    font-size: 26px;
+    line-height: 36px;
+    padding: 20px 0px ;
+    font-weight: bold;
+}
+#contact-detiels .detiels h3{
+    font-size: 16px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+#contact-detiels .detiels li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0px;
+}
+#contact-detiels .detiels i{
+    font-size: 14px;
+    padding-right: 22px;
+    color: #088178;
+    padding-top: 3px;
 
+}
+#contact-detiels .detiels p{
+    font-size: 14px;
+    margin: 0px ;
+    color: #465b52;
+}
+#contact-detiels .map{
+    width: 55%;
+    height: 400px;
+}
+#contact-detiels .map iframe{
+    width: 100%;
+    height: 100%;
+}
 
 
 
