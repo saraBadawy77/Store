@@ -898,6 +898,13 @@ margin: 15px 10px ;
     height: 25vh;
     padding-top: 50px;
 }
+/* /////contant page //// */
+#form-detiles {
+    padding: 40px;
+}
+#form-detiles form {
+    width: 50%;
+}
 
 }
 /* //////////////mobile screen//////// */
@@ -1030,5 +1037,30 @@ padding:100px 20px 0px 20px ;
     width: 100%;
  
 }
+/* contact page  */
+#contact-detiels {
+  flex-direction: column;
+}
+#contact-detiels .detiels{
+width: 100%;
+padding-bottom: 30px;
+}
+#contact-detiels .map {
+    width: 100%;
+}
+#form-detiles {
+flex-direction: column;
 
+   
+   
+    margin: 10px;
+    padding: 30px 10px ;
+   
+
+
+}
+#form-detiles form {
+    width: 100%;
+    padding-bottom: 30px ;
+}
 }
