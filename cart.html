@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Store_contact</title>
+    <title>Online Store_cart</title>
     <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="font/css/all.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,8 +22,8 @@
   <li><a href="shop.html"  >Shop</a></li>
   <li><a href="blog.html">Blog</a></li>
   <li><a href="about.html" >About</a></li>
-  <li><a href="contact.html" class="active">Contact</a></li>
-  <li id="lg-bag"><a href="cart.html"  ><i class="fa-solid fa-bag-shopping "></i></a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li id="lg-bag"><a href="cart.html"  class="active" ><i class="fa-solid fa-bag-shopping "></i></a></li>
   <a  href="#" id="close"><i class="fa-regular fa-rectangle-xmark"></i></a>
 </ul>
 </div>
@@ -39,114 +39,81 @@
 <section  id="header_page" class="about-header">
    
     
-    <h2>Let's_talk</h2>
+    <h2>From here you can pay</h2>
     
-    <p>Leave a message, we'd love to hear from you!</p>
+    <p>You can also get many discounts,always ask!</p>
     
 
 </section>
-<!-- box  -->
-<section id="contact-detiels"  class="section-p1">
-    <div class="detiels">
-        <span> GET IN TOUCH</span>
-        <H2> Visit One of our agency locations or contact us today</H2>
-        <h3> Head Office</h3>
-        <div>
-            <li>
-                <i class="fa-regular fa-map"></i>
-                <p> New York, NY street10012, US</p>
-            </li>
-        </div>
-        <div>
-            <li>
-                <i class="fa-solid fa-envelope-open-text"></i>
-                <p>info@example.com</p>
-            </li>
-        </div>
-        <div>
-            <li>
-                <i class="fa-solid fa-phone-volume"></i>
-                <p>  + 01 234 567 88</p>
-            </li>
-        </div>
-        <div>
-            <li>
-                <i class="fa-regular fa-clock"></i>
-                <p> Monday to saturday 10:00 to 17:00</p>
-            </li>
-        </div>
-    </div>
-    <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2seg!4v1674046970254!5m2!1sen!2seg" 
-        width="600" height="450" style="border:0;" allowfullscreen="" 
-        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-</section>
-<!-- info -->
-<section id="form-detiles">
-    <form action="">
-        <span> LEAVE A  NESSAGE</span>
-        <h2>We love to hear from you </h2>
-        <input type="text" class="form-control" placeholder="Enter Your Name ">
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
-        <input type="text" class="form-control"  placeholder="Subject">
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" cols="30"  placeholder="Your Message"></textarea>
-<button type="submit" class="btn">Submit</button>
-    </form>
-
-    <div class="people">
-        <div>
-        <img src="img/people/1.png">
-        <p>
-            <span> Johan deal</span> Senior Markting manager<br>Phone: +915 987 356 45
-            <br>Email: Johan33 deal@example.com
-        </p>
-        </div>
-        <div>
-            <img src="img/people/2.png">
-            <p>
-                <span> willes adim</span>Project manager<br>Phone: +910 098 356 23
-                <br>Email:wille88ad@example.com
-            </p>
-            </div>
-            <div>
-                <img src="img/people/3.png">
-                <p>
-                    <span> sara nashat</span>Full-Stack Developer<br>Phone: +023 987 877 45
-                    <br>Email: sara77nashat77@gmail.com
-                </p>
-                </div>
-    </div>
-
+<!-- table -->
+<section  id="cart" class="section-p1">
+<table  width="100%">
+<thead>
+    <tr>
+        <td> Remove</td>
+        <td>Image</td>
+        <td>Product</td>
+        <td>Price</td>
+        <td>Quantity</td>
+        <td>Subtotal</td>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td><a href="#"> <i class="fa-regular fa-circle-xmark"></i></a></td>
+        <td> <img src="img/pro/f1.jpg"></td>
+        <td>Cartoon Astronaut T-Shirts</td>
+        <td>118.87$</td>
+        <td><input type="number" value="1"   min="1" max="100"></td>
+        <td>118.87$ </td>
+    </tr>
+    <tr>
+        <td><a href="#"> <i class="fa-regular fa-circle-xmark"></i></a></td>
+        <td> <img src="img/pro/f2.jpg"></td>
+        <td>Cartoon Astronaut T-Shirts</td>
+        <td>100$</td>
+        <td><input type="number" value="1"   min="1" max="100"></td>
+        <td>100$ </td>
+    </tr>
+    <tr>
+        <td><a href="#"> <i class="fa-regular fa-circle-xmark"></i></a></td>
+        <td> <img src="img/pro/f3.jpg"></td>
+        <td>Cartoon Astronaut T-Shirts</td>
+        <td>150$</td>
+        <td><input type="number" value="1"   min="1" max="100"></td>
+        <td>150$ </td>
+    </tr>
+</tbody>
+</table>
 </section>
 
-
-
-
-
-    <!-- news -->
-        <!-- before footer -->
-
-<section class="before-footer  ">
-    <div class="container">
-      <div class="row">
-        <div class="  col-sm-12 col-lg-6" style="padding-left: 0px;">
-         <h3> SignUp For Newsletters</h3>  
-         <p> Get E-mail updatas about our latest shop and <span>Special offers</span></p>
-        </div>
-        <div class=" col-sm-12 col-lg-6" style="padding-right: 0px;">
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Your e-mail address" aria-label="Recipient's username" aria-describedby="basic-addon2">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="button">Sign Up</button>
-            </div>
-          </div>
-        </div>
-      </div>
+<section id="cart-add" class="section-p1">
+<div class="coupon">
+    <h3>Apply Coupon </h3>
+    <div>
+        <input type="text" class="form-control" placeholder="Enter coupon">
+        <button class="btn bbtn1">APPLY</button>
     </div>
-  </section>
-
-
+</div>
+<div class="subtotal">
+    <h3>Cart Totals </h3>
+    <table>
+        <tr>
+            <td> Cart subtotal</td>
+            <td>250$</td>
+        </tr>
+        <tr>
+            <td>Shopping</td>
+            <td>Free</td>
+        </tr>
+        <tr>
+            <td> <strong> Total</strong></td>
+            <td> <strong>250$</strong></td>
+        </tr>
+    </table>
+<button  id="btn2" class="btn bbtn1 ">Proceed to check out </button>
+</div>
+</section>
 
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-white text-muted">
